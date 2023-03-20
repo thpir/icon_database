@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <path
+            id="branch"
+            d="
+                M 100 10 L 100 100
+                M 100 32.5 L 77.5 10
+                M 100 55 L 77.5 32.5
+                M 100 77.5 L 77.5 55
+                M 100 32.5 L 122.5 10
+                M 100 55 L 122.5 32.5
+                M 100 77.5 L 122.5 55
+            " 
+            stroke="#ADD8E6"
+            stroke-width="7"
+        />
+    </defs>
+    <use href="#branch" />
+    <use href="#branch" transform="rotate(60 100 100)" />
+    <use href="#branch" transform="rotate(120 100 100)" />
+    <use href="#branch" transform="rotate(180 100 100)" />
+    <use href="#branch" transform="rotate(240 100 100)" />
+    <use href="#branch" transform="rotate(300 100 100)" />
+</svg>

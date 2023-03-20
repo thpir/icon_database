@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(0 0)">
+        <g>
+            <polygon points="100,100 65,55 100,10" fill="#EDD8B7"/>
+            <polygon points="100,100 135,55 100,10" fill="#E5C39C"/>
+        </g>
+        <g transform="rotate(72, 100, 100)">
+            <polygon points="100,100 65,55 100,10" fill="#EDD8B7"/>
+            <polygon points="100,100 135,55 100,10" fill="#E5C39C"/>
+        </g>
+        <g transform="rotate(-72, 100, 100)">
+            <polygon points="100,100 65,55 100,10" fill="#EDD8B7"/>
+            <polygon points="100,100 135,55 100,10" fill="#E5C39C"/>
+        </g>
+        <g transform="rotate(144, 100, 100)">
+            <polygon points="100,100 65,55 100,10" fill="#EDD8B7"/>
+            <polygon points="100,100 135,55 100,10" fill="#E5C39C"/>
+        </g>
+        <g transform="rotate(-144, 100, 100)">
+            <polygon points="100,100 65,55 100,10" fill="#EDD8B7"/>
+            <polygon points="100,100 135,55 100,10" fill="#E5C39C"/>
+        </g>
+    </g>
+</svg>
