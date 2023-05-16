@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .heavy {
+            font: bold 15px serif;
+        }
+
+        .small {
+            font: bold 10px serif;
+        }
+    </style>
+    
     <defs>
         <path
             id="branch"
@@ -239,17 +249,19 @@
     <use href="#branch2" transform="rotate(350 100 100)" />
 
     <g>
-        <text x="94" y="33">N</text>
+        <text x="94.5" y="33" class="heavy">N</text>
     </g>
     <g transform="rotate(90, 100, 100)">
-        <text x="95" y="33">E</text>
+        <text x="95" y="33" class="heavy">E</text>
     </g>
     <g transform="rotate(180, 100, 100)">
-        <text x="95" y="33">S</text>
+        <text x="95" y="33" class="heavy">S</text>
     </g>
     <g transform="rotate(270, 100, 100)">
-        <text x="93" y="33">W</text>
+        <text x="93" y="33" class="heavy">W</text>
     </g>
 
-    
+    <g transform="rotate(20, 100, 100)">
+        <text x="94" y="30" class="small">20</text>
+    </g>
 </svg>
